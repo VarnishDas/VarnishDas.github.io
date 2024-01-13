@@ -1,0 +1,46 @@
+.marquee {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-family: sans-serif;
+    font-size: 200px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.marqueeInner {
+    display: flex;
+    white-space: nowrap;
+    width: fit-content;
+    flex: auto;
+    flex-direction: row;
+}
+
+.marqueePart {
+    display: flex;
+    align-items: center;
+    background-color: #0f0e17;
+    flex-shrink: 0;
+    padding: 0 4px;
+}
+
+.marqueePart:hover {
+    cursor: default;
+}
+
+.arrow {
+    margin: 0 80px;
+    transform: rotate(90deg);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.arrow img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+}
+
+.arrow.active {
+    transform: rotate(-90deg);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

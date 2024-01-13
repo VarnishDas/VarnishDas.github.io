@@ -1,0 +1,47 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    top: 30px;
+    width: calc(100% - 100px);
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1000;
+}
+
+#myName {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px;
+    transition: color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+#myName:hover {
+    cursor: pointer;
+}
+
+#navLinks {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navLinks a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px;
+    transition: color 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+    #navLinks {
+        display: none;
+    }
+}

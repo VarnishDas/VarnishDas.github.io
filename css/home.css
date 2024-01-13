@@ -1,0 +1,90 @@
+#homeMain {
+    background-color: #0f0e17;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.midHome {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    transform: translateY(-50%);
+    font-size: 24px; /* Adjust the font size as needed */
+    color: white;
+    z-index: 1000;
+    text-align: left; /* LATE */
+    overflow: hidden;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.midHome .changingText {
+    position: relative;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: #f25f4c;
+    font-weight: 600;
+    left: 25%;
+}
+
+.midHome .changingText.firstText {
+    color: #FFFFFF;
+}
+
+.changingText.secondText:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0f0e17;
+    /*border-left: 2px solid #4070F4;*/
+    border-left: 2px solid #f25f4c;
+    animation: animate 4s steps(22) infinite;
+}
+
+@keyframes animate {
+    40%, 60% {
+        left: calc(100% + 4px);
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+#hiHome {
+    position: relative;
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    left: 25%;
+}
+
+#timeContainer {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Anonymous Pro', monospace;  
+    font-weight: 600;
+    left: 25%;
+}
+
+#location {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Anonymous Pro', monospace;  
+    font-weight: 600;
+    left: 25%;
+}
+
+#locationLink {
+    text-decoration: none;
+    color: white;
+}
+
+#locationLink:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varnish Das</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./media/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./media/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./media/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./media/favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/greeting.css">
+    <link rel="stylesheet" href="./css/marquee.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<body id="body">
+
+    <div id="welcomeScreen">
+        <div id="greeting"></div>
+    </div>
+
+    <div id="mainContent">
+
+        <section id="homeMain">
+            <div id="navbar">
+                <a id="myName" href="./index.html">Varnish Das</a>
+                <div id="navLinks">
+                    <a class="magneticButton" href="./projects/index.html">Projects</a>
+                    <a class="magneticButton" href="./about/index.html">About</a>
+                    <a class="magneticButton" href="./contact/index.html">Contact</a>
+                </div>
+            </div>
+
+            <div class="midHome preventSelect">
+                <span id="hiHome">Hi,</span>
+                <br>
+                <span class="changingText firstText">I'm a </span>
+                <span class="changingText secondText"></span>
+                <br>
+                <br>
+                <span id="location">Currently In: <a id="locationLink" href="https://www.tampere.fi/" target=”_blank”>Tampere, Finland</a></span>
+                <br>
+                <span id="timeContainer">Local Time: <span id="time"></span></span>
+            </div>
+
+            <section class="marquee">
+                <div class="marqueeInner preventSelect">
+                    <div class="marqueePart">
+                        Varnish Das
+                        <div class="arrow">
+                            <img src="./media/images/arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="marqueePart">
+                        Varnish Das
+                        <div class="arrow">
+                            <img src="./media/images/arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="marqueePart">
+                        Varnish Das
+                        <div class="arrow">
+                            <img src="./media/images/arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="marqueePart">
+                        Varnish Das
+                        <div class="arrow">
+                            <img src="./media/images/arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="marqueePart">
+                        Varnish Das
+                        <div class="arrow">
+                            <img src="./media/images/arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="marqueePart">
+                        Varnish Das
+                        <div class="arrow">
+                            <img src="./media/images/arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="marqueePart">
+                        Varnish Das
+                        <div class="arrow">
+                            <img src="./media/images/arrow.svg"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section id="aboutMain">
+            <div id="aboutContainer">
+                <div id="aboutText">
+                    <span>Hello! I am Varnish Das, 19 y/o Software Engineering undergrad studying at Tampere University of Applied Sciences. </span>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <p>This is a footer</p>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="./script/marquee.js"></script>
+    <script src="./script/home.js"></script>
+    <script src="./script/navigation.js"></script>
+    <script src="./script/time.js"></script>
+</body>
+
+</html>
