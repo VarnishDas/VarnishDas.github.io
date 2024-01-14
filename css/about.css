@@ -1,5 +1,50 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap);
+
+
 #aboutMain {
     display: flex;
-    background-color: #f9f4ef;
-    color: black;
+    background-color: #fffffe;
+    color: #0f0e17;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+#aboutContainer {
+    display: flex;
+    padding-top: 10%;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+#aboutTextLeft {
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 10%;
+}
+
+#aboutTextRight {
+    padding-top: 2%;
+    width: 10%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#aboutLink {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 14%;
+}
+
+#aboutLinkCircle {
+    width: 200px;
+    height: 200px;
+    background-color: #0f0e17;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fffffe;
+    text-decoration: none;
 }

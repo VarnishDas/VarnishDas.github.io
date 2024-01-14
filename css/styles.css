@@ -3,3 +3,9 @@
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
+
+.solidLine {
+    border-bottom: 1px solid lightgray;
+    width: 80%;
+    margin-top: 5%;
+}

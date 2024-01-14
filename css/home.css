@@ -1,25 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+
 #homeMain {
     background-color: #0f0e17;
     height: 100vh;
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .midHome {
     display: none;
     position: absolute;
     width: 100%;
-    top: 35%;
+    padding-top: 41%;
     transform: translateY(-50%);
     font-size: 24px; /* Adjust the font size as needed */
     color: white;
     z-index: 1000;
     text-align: left; /* LATE */
     overflow: hidden;
+    line-height: 1.2;
+    padding-left: 50%;
 }
-
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 .midHome .changingText {
     position: relative;
@@ -27,7 +32,6 @@
     font-family: 'Poppins', sans-serif;
     color: #f25f4c;
     font-weight: 600;
-    left: 25%;
 }
 
 .midHome .changingText.firstText {
@@ -61,7 +65,6 @@
     font-size: 90px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    left: 25%;
 }
 
 #timeContainer {
@@ -69,7 +72,6 @@
     font-size: 20px;
     font-family: 'Anonymous Pro', monospace;  
     font-weight: 600;
-    left: 25%;
 }
 
 #location {
@@ -77,7 +79,6 @@
     font-size: 20px;
     font-family: 'Anonymous Pro', monospace;  
     font-weight: 600;
-    left: 25%;
 }
 
 #locationLink {
