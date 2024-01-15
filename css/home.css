@@ -23,7 +23,6 @@
     text-align: left; /* LATE */
     overflow: hidden;
     line-height: 1.2;
-    /* padding-left: 50%; Issue Here*/ 
 }
 
 .midHome .changingText {

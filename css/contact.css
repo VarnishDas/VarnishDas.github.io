@@ -1,2 +1,79 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap);
+
+
+#contactMain {
+    overflow-x: hidden;
+    display: flex;
+    background-color: #0f0e17;
+    color: #fffffe;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#contactContainer {
+    overflow-x: hidden;
+    display: flex;
+}
+
+#contactText {
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 17%;
+    padding-top: 5%;
+    line-height: 1.2;
+}
+
+#contactLink {
+    padding-top: 15%;
+    padding-left: 17%;
+}
+
+#contactLinkCircle {
+    width: 200px;
+    height: 200px;
+    background-color: #ff8906;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fffffe;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+#footerLine {
+    border-bottom: 1px solid darkgoldenrod;
+    width: 80%;
+    margin-top: auto;
+}
+
+#footer {
+    text-align: center;
+}
+
+#contactLinksDiv {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 17%;
+}
+
+.contactLinks {
+    width: 200px;
+    height: 50px;
+    background-color: #0f0e17;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fffffe;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid darkgray;
+    margin-right: 10px;
+}
