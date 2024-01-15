@@ -51,7 +51,7 @@ function startTextLoad() {
       text.textContent = "Student";
     }, 0);
     setTimeout(() => {
-      text.textContent = "Software Engineer";
+      text.innerHTML = "Software";
     }, 4000);
     setTimeout(() => {
       text.textContent = "Freelancer";

@@ -4,10 +4,17 @@
 
 
 #projectsMain {
+    overflow-x: hidden;
     display: flex;
     background-color: #fffffe;
     color: #0f0e17;
     box-sizing: border-box;
+    flex-direction: column;
+}
+
+#projectsContainer {
+    overflow-x: hidden;
+    display: flex;
     flex-direction: column;
 }
 
@@ -17,11 +24,6 @@
     font-family: 'Anonymous Pro', sans-serif;
     padding-left: 17%;
 
-}
-
-#projectsContainer {
-    display: flex;
-    flex-direction: column;
 }
 
 .projects {
