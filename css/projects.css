@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap);
+
+
+
+#projectsMain {
+    display: flex;
+    background-color: #fffffe;
+    color: #0f0e17;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+#projectsText {
+    font-size: 20px;
+    color: gray;
+    font-family: 'Anonymous Pro', sans-serif;
+    padding-left: 17%;
+
+}
+
+#projectsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.projectsLink {
+    color: #0f0e17;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    width: 75%;
+    background-color: #fffffe;
+    cursor: pointer;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+}
+
+#prokectsMoreLinkDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#projectsMoreLink {
+    width: 200px;
+    height: 50px;
+    background-color: #fffffe;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #0f0e17;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #0f0e17;
+}

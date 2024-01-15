@@ -62,3 +62,12 @@ function startTextLoad() {
   textLoad();
   setInterval(textLoad, 12000);
 }
+
+const myNameElement = document.getElementById("myName");
+
+myNameElement.addEventListener("mouseover", () => {
+    myNameElement.innerText = "Code by Varnish";
+});
+myNameElement.addEventListener("mouseout", () => {
+    myNameElement.innerText = "Varnish Das";
+});

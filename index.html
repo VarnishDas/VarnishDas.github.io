@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/projects.css">
 </head>
 
 <body id="body">
@@ -114,32 +115,52 @@
                 </div>
             </div>
             <div id="aboutLink">
-                <a href="./about/index.html" id="aboutLinkCircle" class="magneticButton">More About Me</a>
+                <a href="./about/index.html" class="magneticButton" id="aboutLinkCircle">More About Me</a>
             </div>
         </section>
 
-        <hr class="solidLine">
-
         <section id="projectsMain">
             <div id="projectsContainer">
-                <div id="projectsTextLeft">
-                    <p>
-                        Here are some of my projects that I have worked on.
-                    </p>
+
+                <p id="projectsText">RECENT PROJECTS</p>
+                <hr class="solidLine">
+
+                <div class="projects">
+                    <a href="https://github.com/VarnishDas/f1-classification-system" target="_blank" class="projectsLink">F1 Classification System</a>
                 </div>
-                <div id="projectsTextRight">
-                    <p>
-                        <a href="./projects/index.html" id="projectsLinkCircle" class="magneticButton">Projects</a>
-                    </p>
+
+                <hr class="solidLine">
+
+                <div class="projects">
+                    <a href="https://github.com/VarnishDas/f1-classification-system" class="projectsLink">Weather Site</a>
+                </div>
+
+                <hr class="solidLine">
+
+                <div class="projects">
+                    <a href="https://github.com/VarnishDas/f1-classification-system" class="projectsLink">Guessing Game</a>
+                </div>
+
+                <hr class="solidLine">
+
+                <div class="projects">
+                    <a href="https://github.com/VarnishDas/f1-classification-system" class="projectsLink">Multiplication Game</a>
+                </div>
+
+                <hr class="solidLine">
+
+                <div id="prokectsMoreLinkDiv">
+                    <a href="./projects/index.html" id="projectsMoreLink" class="magneticButton">More Projects</a>
                 </div>
             </div>
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <script src="./script/marquee.js"></script>
     <script src="./script/home.js"></script>
-    <script src="./script/navigation.js"></script>
+    <script src="./script/magnetButton.js"></script>
     <script src="./script/time.js"></script>
 </body>
 
