@@ -45,21 +45,22 @@
     font-family: 'Anonymous Pro', monospace;
 }
 
-#footerLine {
-    border-bottom: 1px solid darkgoldenrod;
-    width: 80%;
-    margin-top: auto;
-}
-
-#footer {
-    text-align: center;
-}
-
 #contactLinksDiv {
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 17%;
+    flex-direction: row;
+}
+
+#phoneAndEmail {
+    display: flex;
+    width: 55%;
+}
+
+#socials {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .contactLinks {
@@ -76,4 +77,24 @@
     padding: 10px 20px;
     border: 1px solid darkgray;
     margin-right: 10px;
+}
+
+.socialMedia {
+    width: 50%;
+}
+
+.socialMediaLinks img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+#footerLine {
+    border-bottom: 1px solid darkgoldenrod;
+    width: 80%;
+    margin-top: auto;
+}
+
+#footer {
+    text-align: center;
 }
